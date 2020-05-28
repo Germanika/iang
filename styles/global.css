@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Oxygen';
+  src: url('/fonts/Oxygen-Regular.ttf');
+}
+@font-face {
+  font-family: 'Oxygen';
+  src: url('/fonts/Oxygen-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Oxygen';
+  src: url('/fonts/Oxygen-Light.ttf');
+  font-weight: lighter;
+}
+
+:root {
+  --dark-blue: #3D5467;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Oxygen;
+  line-height: 1.6;
+  font-size: 18px;
+  background: #FDFDFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+  text-underline-position: below;
+}
+
+a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

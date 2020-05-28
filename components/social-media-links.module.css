@@ -1,0 +1,18 @@
+.linksContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.link {
+    width: 7rem;
+    text-align: center;
+    margin: 1rem 0 2rem;
+    padding: .5rem 1.5rem;
+    color: var(--dark-blue);
+    text-decoration: none;
+    border-top: 2px solid var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue);
+}
