@@ -1,1 +1,1 @@
-This is my website, built in [nextjs](https://nextjs.org)
+This is my website, built using [nextjs](https://nextjs.org)
